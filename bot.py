@@ -10,7 +10,7 @@ from aiohttp import web
 load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token=os.getenv(BOT_TOKEN))
+bot = Bot(token=os.getenv("BOT_TOKEN"))
 dp = Dispatcher()
 
 # ─── /start ───────────────────────────
