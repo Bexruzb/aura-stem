@@ -1,0 +1,482 @@
+[
+  {
+    "id":1, "cat":"math", "label":"Algebra", "title":"Kvadrat tenglama formulasi",
+    "formula":"x = (-b ± √(b²-4ac)) / 2a", "tags":["Ildizlar","Polinom","2-daraja"]
+  },
+  {
+    "id":2, "cat":"math", "label":"Algebra", "title":"Binomial teorema",
+    "formula":"(a+b)ⁿ = Σ C(n,k)·aⁿ⁻ᵏbᵏ", "tags":["Yoyish","Kombinatorika","Qator"]
+  },
+  {
+    "id":3, "cat":"math", "label":"Matematika analizi", "title":"Eyler identifikatori",
+    "formula":"e^(iπ) + 1 = 0", "tags":["Kompleks analiz","Konstantalar"]
+  },
+  {
+    "id":4, "cat":"geo", "label":"Vektorlar", "title":"Vektor moduli",
+    "formula":"|v⃗| = √(x²+y²)", "tags":["2O'lcham","Masofa","Norm"]
+  },
+  {
+    "id":5, "cat":"geo", "label":"Aylana", "title":"Aylana yuzi va uzunligi",
+    "formula":"A = πr², C = 2πr", "tags":["Aylana","Yuza","Perimetr"]
+  },
+  {
+    "id":6, "cat":"geo", "label":"Trigonometriya", "title":"Kosinuslar teoremasi",
+    "formula":"c² = a² + b² - 2ab·cosC", "tags":["Uchburchak","Pifagor"]
+  },
+  {
+    "id":7, "cat":"phys", "label":"Nyuton qonunlari", "title":"Nyutonning 2-qonuni",
+    "formula":"F = ma", "tags":["Dinamika","Kuch","Tezlanish"]
+  },
+  {
+    "id":8, "cat":"phys", "label":"Energiya", "title":"Eynshteyn massa-energiya",
+    "formula":"E = mc²", "tags":["Nisbiylik","Energiya","Tinchlik massasi"]
+  },
+  {
+    "id":9, "cat":"phys", "label":"To'lqinlar", "title":"To'lqin tezligi",
+    "formula":"v = fλ", "tags":["To'lqinlar","Chastota","To'lqin uzunligi"]
+  },
+  {
+    "id":10, "cat":"math", "label":"Algebra", "title":"Diskriminant",
+    "formula":"D = b² - 4ac", "tags":["Kvadrat tenglama","Ildizlar"]
+  },
+  {
+    "id":11, "cat":"math", "label":"Algebra", "title":"Viet teoremasi",
+    "formula":"x₁+x₂ = -b/a, x₁x₂ = c/a", "tags":["Ildizlar","Yig'indi","Ko'paytma"]
+  },
+  {
+    "id":12, "cat":"math", "label":"Algebra", "title":"Logarifm xossalari",
+    "formula":"logₐ(mn) = logₐm + logₐn", "tags":["Logarifm","Ko'paytma"]
+  },
+  {
+    "id":13, "cat":"math", "label":"Algebra", "title":"Arifmetik progressiya",
+    "formula":"Sₙ = n(a₁+aₙ)/2", "tags":["Progressiya","Yig'indi"]
+  },
+  {
+    "id":14, "cat":"math", "label":"Algebra", "title":"Geometrik progressiya",
+    "formula":"Sₙ = a₁(1-qⁿ)/(1-q)", "tags":["Progressiya","Qator"]
+  },
+  {
+    "id":15, "cat":"math", "label":"Algebra", "title":"Modul xossalari",
+    "formula":"|x| ≤ a ⇔ -a ≤ x ≤ a", "tags":["Modul","Tengsizlik"]
+  },
+  {
+    "id":16, "cat":"math", "label":"Matematika analizi", "title":"Hosila ta'rifi",
+    "formula":"f'(x) = lim(h→0) [f(x+h)-f(x)]/h", "tags":["Hosila","Limit"]
+  },
+  {
+    "id":17, "cat":"math", "label":"Matematika analizi", "title":"Aniq integral",
+    "formula":"∫ₐᵇ f(x)dx = F(b)-F(a)", "tags":["Integral","Nyuton-Leybnits"]
+  },
+  {
+    "id":18, "cat":"math", "label":"Matematika analizi", "title":"Teylor qatori",
+    "formula":"f(x) = Σ f⁽ⁿ⁾(a)(x-a)ⁿ/n!", "tags":["Qator","Approksimatsiya"]
+  },
+  {
+    "id":19, "cat":"math", "label":"Matematika analizi", "title":"Lopital qoidasi",
+    "formula":"lim f/g = lim f'/g'", "tags":["Limit","Aniqsizlik"]
+  },
+  {
+    "id":20, "cat":"math", "label":"Trigonometriya", "title":"Asosiy ayniyat",
+    "formula":"sin²θ + cos²θ = 1", "tags":["Trigonometriya","Ayniyat"]
+  },
+  {
+    "id":21, "cat":"math", "label":"Trigonometriya", "title":"Sinuslar yig'indisi",
+    "formula":"sinα+sinβ = 2sin((α+β)/2)cos((α-β)/2)", "tags":["Sinus","Yig'indi"]
+  },
+  {
+    "id":22, "cat":"math", "label":"Trigonometriya", "title":"Kosinuslar ayirmasi",
+    "formula":"cosα-cosβ = -2sin((α+β)/2)sin((α-β)/2)", "tags":["Kosinus","Ayirma"]
+  },
+  {
+    "id":23, "cat":"math", "label":"Sonlar nazariyasi", "title":"Eyler funksiyasi",
+    "formula":"φ(n) = nΠ(1-1/p)", "tags":["Eyler","Tub sonlar"]
+  },
+  {
+    "id":24, "cat":"math", "label":"Kombinatorika", "title":"Kombinatsiyalar",
+    "formula":"C(n,k) = n!/(k!(n-k)!)", "tags":["Tanlash","Faktorial"]
+  },
+  {
+    "id":25, "cat":"math", "label":"Ehtimollar nazariyasi", "title":"Bayes teoremasi",
+    "formula":"P(A|B) = P(B|A)P(A)/P(B)", "tags":["Ehtimollik","Shartli"]
+  },
+  {
+    "id":26, "cat":"math", "label":"Chiziqli algebra", "title":"Matritsa determinanti",
+    "formula":"det(A₃ₓ₃) = a(ei-fh)-b(di-fg)+c(dh-eg)", "tags":["Matritsa","3x3"]
+  },
+  {
+    "id":27, "cat":"geo", "label":"Uchburchak", "title":"Uchburchak yuzi",
+    "formula":"S = ½·ab·sinC", "tags":["Yuza","Burchak","Uchburchak"]
+  },
+  {
+    "id":28, "cat":"geo", "label":"Uchburchak", "title":"Geron formulasi",
+    "formula":"S = √(s(s-a)(s-b)(s-c))", "tags":["Yuza","Yarim perimetr"]
+  },
+  {
+    "id":29, "cat":"geo", "label":"Uchburchak", "title":"Sinuslar teoremasi",
+    "formula":"a/sinA = b/sinB = c/sinC = 2R", "tags":["Sinus","Tashqi aylana"]
+  },
+  {
+    "id":30, "cat":"geo", "label":"Uchburchak", "title":"Pifagor teoremasi",
+    "formula":"c² = a² + b²", "tags":["To'g'ri burchakli","Gipotenuza"]
+  },
+  {
+    "id":31, "cat":"geo", "label":"Uchburchak", "title":"Mediana formulasi",
+    "formula":"mₐ = ½√(2b²+2c²-a²)", "tags":["Mediana","Uzunlik"]
+  },
+  {
+    "id":32, "cat":"geo", "label":"Uchburchak", "title":"Bissektrisa uzunligi",
+    "formula":"ℓₐ = 2√(bcs(s-a))/(b+c)", "tags":["Bissektrisa","Proportsiya"]
+  },
+  {
+    "id":33, "cat":"geo", "label":"Uchburchak", "title":"Ichki aylana radiusi",
+    "formula":"r = S/s", "tags":["Ichki","Radius","Yarim perimetr"]
+  },
+  {
+    "id":34, "cat":"geo", "label":"Uchburchak", "title":"Tashqi aylana radiusi",
+    "formula":"R = abc/(4S)", "tags":["Tashqi","Radius"]
+  },
+  {
+    "id":35, "cat":"geo", "label":"To'rtburchak", "title":"To'rtburchak yuzi",
+    "formula":"S = ab·sinφ", "tags":["Yuza","Burchak","Parallelogramm"]
+  },
+  {
+    "id":36, "cat":"geo", "label":"To'rtburchak", "title":"Romb yuzi",
+    "formula":"S = ½·d₁d₂", "tags":["Romb","Diagonallar"]
+  },
+  {
+    "id":37, "cat":"geo", "label":"Trapetsiya", "title":"Trapetsiya yuzi",
+    "formula":"S = ½(a+b)h", "tags":["Trapetsiya","O'rta chiziq"]
+  },
+  {
+    "id":38, "cat":"geo", "label":"Aylana", "title":"Sektor yuzi",
+    "formula":"S = ½r²θ", "tags":["Sektor","Burchak","Radian"]
+  },
+  {
+    "id":39, "cat":"geo", "label":"Stereometriya", "title":"Kub hajmi",
+    "formula":"V = a³", "tags":["Kub","Hajm","Sirt yuzi"]
+  },
+  {
+    "id":40, "cat":"geo", "label":"Stereometriya", "title":"Parallelepiped hajmi",
+    "formula":"V = abc", "tags":["Parallelepiped","Hajm"]
+  },
+  {
+    "id":41, "cat":"geo", "label":"Stereometriya", "title":"Prizma hajmi",
+    "formula":"V = S_asos·h", "tags":["Prizma","Hajm"]
+  },
+  {
+    "id":42, "cat":"geo", "label":"Stereometriya", "title":"Piramida hajmi",
+    "formula":"V = ⅓·S_asos·h", "tags":["Piramida","Hajm"]
+  },
+  {
+    "id":43, "cat":"geo", "label":"Stereometriya", "title":"Silindr hajmi",
+    "formula":"V = πR²h", "tags":["Silindr","Hajm","Sirt yuzi"]
+  },
+  {
+    "id":44, "cat":"geo", "label":"Stereometriya", "title":"Konus hajmi",
+    "formula":"V = ⅓πR²h", "tags":["Konus","Hajm","Yasovchi"]
+  },
+  {
+    "id":45, "cat":"geo", "label":"Stereometriya", "title":"Shar hajmi",
+    "formula":"V = ⁴⁄₃πR³", "tags":["Shar","Hajm","Sfera"]
+  },
+  {
+    "id":46, "cat":"geo", "label":"Stereometriya", "title":"Sfera sirt yuzi",
+    "formula":"S = 4πR²", "tags":["Sfera","Sirt yuzi"]
+  },
+  {
+    "id":47, "cat":"geo", "label":"Analitik geometriya", "title":"Ikki nuqta orasidagi masofa",
+    "formula":"d = √((x₂-x₁)²+(y₂-y₁)²)", "tags":["Masofa","Koordinatalar"]
+  },
+  {
+    "id":48, "cat":"geo", "label":"Analitik geometriya", "title":"To'g'ri chiziq tenglamasi",
+    "formula":"y = kx + b, k = (y₂-y₁)/(x₂-x₁)", "tags":["Chiziq","Burchak koeffitsiyenti"]
+  },
+  {
+    "id":49, "cat":"geo", "label":"Analitik geometriya", "title":"Aylana tenglamasi",
+    "formula":"(x-a)² + (y-b)² = R²", "tags":["Aylana","Markaz","Radius"]
+  },
+  {
+    "id":50, "cat":"geo", "label":"Analitik geometriya", "title":"Ellips tenglamasi",
+    "formula":"x²/a² + y²/b² = 1", "tags":["Ellips","Fokus","Ekssentrisitet"]
+  },
+  {
+    "id":51, "cat":"geo", "label":"Analitik geometriya", "title":"Giperbola tenglamasi",
+    "formula":"x²/a² - y²/b² = 1", "tags":["Giperbola","Asimptota"]
+  },
+  {
+    "id":52, "cat":"geo", "label":"Analitik geometriya", "title":"Parabola tenglamasi",
+    "formula":"y² = 2px", "tags":["Parabola","Fokus","Direktrissa"]
+  },
+  {
+    "id":53, "cat":"geo", "label":"Vektorlar", "title":"Skalyar ko'paytma",
+    "formula":"a⃗·b⃗ = |a||b|cosθ", "tags":["Skalyar","Burchak","Proyeksiya"]
+  },
+  {
+    "id":54, "cat":"geo", "label":"Vektorlar", "title":"Vektor ko'paytma",
+    "formula":"|a⃗×b⃗| = |a||b|sinθ", "tags":["Vektor","3D","Yuz"]
+  },
+  {
+    "id":55, "cat":"phys", "label":"Kinematika", "title":"Tekis harakat tezligi",
+    "formula":"v = s/t", "tags":["Tezlik","Masofa","Vaqt"]
+  },
+  {
+    "id":56, "cat":"phys", "label":"Kinematika", "title":"Tezlanish",
+    "formula":"a = (v-v₀)/t", "tags":["Tezlanish","Tezlik","Vaqt"]
+  },
+  {
+    "id":57, "cat":"phys", "label":"Kinematika", "title":"Tekis tezlanuvchan harakat",
+    "formula":"v = v₀+at, s = v₀t+½at²", "tags":["Harakat","Masofa"]
+  },
+  {
+    "id":58, "cat":"phys", "label":"Dinamika", "title":"Ishqalanish kuchi",
+    "formula":"F_ishq = μN", "tags":["Ishqalanish","Reaksiya","Koeffitsiyent"]
+  },
+  {
+    "id":59, "cat":"phys", "label":"Dinamika", "title":"Markazga intilma kuch",
+    "formula":"F = mv²/R = mω²R", "tags":["Aylanish","Markazga intilma"]
+  },
+  {
+    "id":60, "cat":"phys", "label":"Dinamika", "title":"Impuls",
+    "formula":"p = mv", "tags":["Impuls","Massa","Tezlik"]
+  },
+  {
+    "id":61, "cat":"phys", "label":"Dinamika", "title":"Impuls saqlanish qonuni",
+    "formula":"m₁v₁+m₂v₂ = m₁v₁'+m₂v₂'", "tags":["Impuls","To'qnashuv"]
+  },
+  {
+    "id":62, "cat":"phys", "label":"Energiya", "title":"Kinetik energiya",
+    "formula":"E_k = ½mv²", "tags":["Kinetik","Energiya","Tezlik"]
+  },
+  {
+    "id":63, "cat":"phys", "label":"Energiya", "title":"Potensial energiya",
+    "formula":"E_p = mgh", "tags":["Potensial","Balandlik","Gravitatsiya"]
+  },
+  {
+    "id":64, "cat":"phys", "label":"Energiya", "title":"Energiya saqlanish qonuni",
+    "formula":"E_k+E_p = const", "tags":["Saqlanish","Mexanik energiya"]
+  },
+  {
+    "id":65, "cat":"phys", "label":"Gravitatsiya", "title":"Umumjahon tortishish qonuni",
+    "formula":"F = Gm₁m₂/r²", "tags":["Gravitatsiya","Nyuton","Massalar"]
+  },
+  {
+    "id":66, "cat":"phys", "label":"Gravitatsiya", "title":"Erkin tushish tezlanishi",
+    "formula":"g = GM/R² ≈ 9.81 m/s²", "tags":["Erkin tushish","Yer"]
+  },
+  {
+    "id":67, "cat":"phys", "label":"Elektromagnetizm", "title":"Kulon qonuni",
+    "formula":"F = kq₁q₂/r²", "tags":["Zaryad","Kuch","Elektrostatika"]
+  },
+  {
+    "id":68, "cat":"phys", "label":"Elektromagnetizm", "title":"Om qonuni",
+    "formula":"V = IR", "tags":["Kuchlanish","Tok","Qarshilik"]
+  },
+  {
+    "id":69, "cat":"phys", "label":"Elektromagnetizm", "title":"Elektr quvvati",
+    "formula":"P = VI = I²R = V²/R", "tags":["Quvvat","Tok","Kuchlanish"]
+  },
+  {
+    "id":70, "cat":"phys", "label":"Elektromagnetizm", "title":"Ketma-ket qarshilik",
+    "formula":"R = R₁+R₂+R₃", "tags":["Ketma-ket","Qarshilik"]
+  },
+  {
+    "id":71, "cat":"phys", "label":"Elektromagnetizm", "title":"Parallel qarshilik",
+    "formula":"1/R = 1/R₁+1/R₂+1/R₃", "tags":["Parallel","Qarshilik"]
+  },
+  {
+    "id":72, "cat":"phys", "label":"Elektromagnetizm", "title":"Faradey qonuni",
+    "formula":"ℰ = -dΦ_B/dt", "tags":["Induksiya","Magnit oqim","EYuK"]
+  },
+  {
+    "id":73, "cat":"phys", "label":"To'lqinlar", "title":"To'lqin tenglamasi",
+    "formula":"y = A·sin(ωt-kx)", "tags":["To'lqin","Amplituda","Faza"]
+  },
+  {
+    "id":74, "cat":"phys", "label":"To'lqinlar", "title":"Dopler effekti",
+    "formula":"f' = f(v±v_k)/(v∓v_m)", "tags":["Chastota","Harakat","Manba"]
+  },
+  {
+    "id":75, "cat":"phys", "label":"Optika", "title":"Yorug'lik tezligi",
+    "formula":"c = 3×10⁸ m/s", "tags":["Yorug'lik","Vakuum","Tezlik"]
+  },
+  {
+    "id":76, "cat":"phys", "label":"Optika", "title":"Linza formulasi",
+    "formula":"1/F = 1/d + 1/f", "tags":["Linza","Fokus","Masofa"]
+  },
+  {
+    "id":77, "cat":"phys", "label":"Optika", "title":"Optik kuch",
+    "formula":"D = 1/F [Dptr]", "tags":["Linza","Fokus","Dioptriya"]
+  },
+  {
+    "id":78, "cat":"phys", "label":"Termodinamika", "title":"Issiqlik miqdori",
+    "formula":"Q = cmΔT", "tags":["Issiqlik","Harorat","Solishtirma issiqlik"]
+  },
+  {
+    "id":79, "cat":"phys", "label":"Termodinamika", "title":"Ideal gaz qonuni",
+    "formula":"PV = nRT", "tags":["Gaz","Bosim","Hajm","Harorat"]
+  },
+  {
+    "id":80, "cat":"phys", "label":"Termodinamika", "title":"Karno FIK",
+    "formula":"η = 1 - T_C/T_H", "tags":["Karno","FIK","Issiqlik dvigateli"]
+  },
+  {
+    "id":81, "cat":"phys", "label":"Yadro fizikasi", "title":"Radioaktiv yemirilish",
+    "formula":"N = N₀·2^(-t/T½)", "tags":["Yarim yemirilish","Radioaktivlik"]
+  },
+  {
+    "id":82, "cat":"phys", "label":"Nisbiylik", "title":"Lorens almashtirishlari",
+    "formula":"γ = 1/√(1-v²/c²)", "tags":["Nisbiylik","Fazo-vaqt"]
+  },
+  {
+    "id":83, "cat":"phys", "label":"Nisbiylik", "title":"Vaqt sekinlashishi",
+    "formula":"Δt = γΔt₀", "tags":["Vaqt","Nisbiylik","Kuzatuvchi"]
+  },
+  {
+    "id":84, "cat":"phys", "label":"Kvant fizikasi", "title":"Foton energiyasi",
+    "formula":"E = hν = hc/λ", "tags":["Foton","Plank","Chastota"]
+  },
+  {
+    "id":85, "cat":"phys", "label":"Kvant fizikasi", "title":"Fotoeffekt",
+    "formula":"E_k = hν - A", "tags":["Fotoeffekt","Eynshteyn"]
+  },
+  {
+    "id":86, "cat":"phys", "label":"Kvant fizikasi", "title":"De Broyl to'lqini",
+    "formula":"λ = h/p = h/mv", "tags":["To'lqin-zarracha","De Broyl"]
+  },
+  {
+    "id":87, "cat":"phys", "label":"Astrofizika", "title":"Shvartsshild radiusi",
+    "formula":"R_s = 2GM/c²", "tags":["Qora tuynuk","Shvartsshild"]
+  },
+  {
+    "id":88, "cat":"phys", "label":"Astrofizika", "title":"Habbl qonuni",
+    "formula":"v = H₀·d", "tags":["Koinot","Kengayish","Qizil siljish"]
+  },
+  {
+    "id":89, "cat":"math", "label":"Algebra", "title":"Faktorlash: kvadrat uchhad",
+    "formula":"ax²+bx+c = a(x-x₁)(x-x₂)", "tags":["Faktorlash","Ildizlar"]
+  },
+  {
+    "id":90, "cat":"math", "label":"Algebra", "title":"Gorner sxemasi",
+    "formula":"P(x)=(x-a)Q(x)+P(a)", "tags":["Ko'phad","Bo'lish","Gorner"]
+  },
+  {
+    "id":91, "cat":"math", "label":"Algebra", "title":"Bezu teoremasi",
+    "formula":"P(a)=0 ⇔ (x-a)|P(x)", "tags":["Bezu","Ildiz","Ko'phad"]
+  },
+  {
+    "id":92, "cat":"math", "label":"Algebra", "title":"Kardano formulasi",
+    "formula":"x³+px+q=0 yechimi", "tags":["Kubik","Kardano","3-daraja"]
+  },
+  {
+    "id":93, "cat":"math", "label":"Algebra", "title":"Interpolyatsion Lagranj ko'phadi",
+    "formula":"L(x)=ΣyᵢΠ(x-xⱼ)/(xᵢ-xⱼ)", "tags":["Lagranj","Interpolyatsiya"]
+  },
+  {
+    "id":94, "cat":"math", "label":"Algebra", "title":"Nyuton binomi umumlashgan",
+    "formula":"(1+x)^α = ΣC(α,k)x^k", "tags":["Nyuton","Umumlashgan","Qator"]
+  },
+  {
+    "id":95, "cat":"math", "label":"Algebra", "title":"Kompleks son trigonometrik shakli",
+    "formula":"z = r(cosφ+isinφ)", "tags":["Kompleks","Eyler","Muavr"]
+  },
+  {
+    "id":96, "cat":"math", "label":"Algebra", "title":"Koshi-Bunyakovskiy tengsizligi",
+    "formula":"(Σaᵢbᵢ)² ≤ (Σaᵢ²)(Σbᵢ²)", "tags":["Koshi","Tengsizlik","Vektor"]
+  },
+  {
+    "id":97, "cat":"math", "label":"Algebra", "title":"O'rta qiymatlar zanjiri",
+    "formula":"H ≤ G ≤ A ≤ Q", "tags":["Garmonik","Geometrik","Arifmetik"]
+  },
+  {
+    "id":98, "cat":"geo", "label":"Stereometriya", "title":"Kesik piramida hajmi",
+    "formula":"V = ⅓h(S₁+S₂+√(S₁S₂))", "tags":["Kesik piramida","Hajm"]
+  },
+  {
+    "id":99, "cat":"geo", "label":"Stereometriya", "title":"Shar segmenti hajmi",
+    "formula":"V = πh²(R-h/3)", "tags":["Shar","Segment","Hajm"]
+  },
+  {
+    "id":100, "cat":"geo", "label":"Stereometriya", "title":"Tor hajmi",
+    "formula":"V = 2π²Rr²", "tags":["Tor","Hajm","Sirt yuzi"]
+  },
+  {
+    "id":101, "cat":"geo", "label":"Planimetrya", "title":"Styuart teoremasi",
+    "formula":"b²m+c²n = a(d²+mn)", "tags":["Styuart","Uchburchak","Kesma"]
+  },
+  {
+    "id":102, "cat":"geo", "label":"Planimetrya", "title":"Eyler to'g'ri chizig'i",
+    "formula":"OH² = 9R²-(a²+b²+c²)", "tags":["Eyler","Ortosentr","Sentroid"]
+  },
+  {
+    "id":103, "cat":"geo", "label":"Planimetrya", "title":"Apolloniy aylanasi",
+    "formula":"PA/PB = k (k≠1)", "tags":["Apolloniy","Aylana","Geometrik o'rin"]
+  },
+  {
+    "id":104, "cat":"geo", "label":"Planimetrya", "title":"Ptolemey teoremasi",
+    "formula":"AC·BD = AB·CD+AD·BC", "tags":["Ptolemey","Aylana","To'rtburchak"]
+  },
+  {
+    "id":105, "cat":"geo", "label":"Planimetrya", "title":"Brahmagupta formulasi",
+    "formula":"S = √((s-a)(s-b)(s-c)(s-d))", "tags":["Brahmagupta","To'rtburchak"]
+  },
+  {
+    "id":106, "cat":"geo", "label":"Planimetrya", "title":"Morley teoremasi",
+    "formula":"Trisektrisalar teng tomonli uchburchak hosil qiladi", "tags":["Morley","Trisektrisa"]
+  },
+  {
+    "id":107, "cat":"geo", "label":"Analitik geometriya", "title":"Nuqtadan to'g'ri chiziqqacha masofa",
+    "formula":"d = |Ax₀+By₀+C|/√(A²+B²)", "tags":["Masofa","To'g'ri chiziq"]
+  },
+  {
+    "id":108, "cat":"geo", "label":"Analitik geometriya", "title":"Nuqtadan tekislikkacha masofa",
+    "formula":"d = |Ax₀+By₀+Cz₀+D|/√(A²+B²+C²)", "tags":["3D","Tekislik","Masofa"]
+  },
+  {
+    "id":109, "cat":"geo", "label":"Analitik geometriya", "title":"Ikki chiziq orasidagi burchak",
+    "formula":"tanθ = |(k₁-k₂)/(1+k₁k₂)|", "tags":["Burchak","To'g'ri chiziq"]
+  },
+  {
+    "id":110, "cat":"geo", "label":"Sferik geometriya", "title":"Sferada masofa",
+    "formula":"d = R·arccos(sinφ₁sinφ₂+cosφ₁cosφ₂cosΔλ)", "tags":["Sfera","Masofa","Geodeziya"]
+  },
+  {
+    "id":111, "cat":"geo", "label":"Differensial geometriya", "title":"Frenet-Serre formulalari",
+    "formula":"dT⃗/ds = κN⃗", "tags":["Frenet","Egrilik","Buralish"]
+  },
+  {
+    "id":112, "cat":"geo", "label":"Topologiya", "title":"Eyler xarakteristikasi",
+    "formula":"χ = V-E+F = 2-2g", "tags":["Eyler","Topologiya","Genus"]
+  },
+  {
+    "id":113, "cat":"phys", "label":"Mexanika", "title":"Guk qonuni",
+    "formula":"F = -kx, σ = Eε", "tags":["Guk","Elastiklik","Yung moduli"]
+  },
+  {
+    "id":114, "cat":"phys", "label":"Mexanika", "title":"Impuls momenti",
+    "formula":"L⃗ = r⃗×p⃗ = Iω⃗", "tags":["Impuls momenti","Aylanish"]
+  },
+  {
+    "id":115, "cat":"phys", "label":"Mexanika", "title":"Arximed kuchi",
+    "formula":"F_A = ρgV", "tags":["Arximed","Suyuqlik","Ko'tarish kuchi"]
+  },
+  {
+    "id":116, "cat":"phys", "label":"Mexanika", "title":"Bernulli tenglamasi",
+    "formula":"P+½ρv²+ρgh = const", "tags":["Bernulli","Bosim","Oqim"]
+  },
+  {
+    "id":117, "cat":"phys", "label":"Elektromagnetizm", "title":"Biot-Savar qonuni",
+    "formula":"dB⃗ = (μ₀/4π)(Idl⃗×r̂)/r²", "tags":["Magnit maydon","Biot-Savar"]
+  },
+  {
+    "id":118, "cat":"phys", "label":"Elektromagnetizm", "title":"Amper kuchi",
+    "formula":"F⃗ = Il⃗×B⃗", "tags":["Amper","Magnit kuch","Tok"]
+  },
+  {
+    "id":119, "cat":"phys", "label":"Termodinamika", "title":"Entropiya",
+    "formula":"ΔS ≥ 0, dS = dQ_rev/T", "tags":["Entropiya","2-qonun"]
+  },
+  {
+    "id":120, "cat":"phys", "label":"Nazariy fizika", "title":"Plank birliklari",
+    "formula":"ℓ_P = √(ℏG/c³) ≈ 1.6×10⁻³⁵ m", "tags":["Plank","Fundamental","Kvant gravitatsiyasi"]
+  }
+    ]
